@@ -1,0 +1,29 @@
+{
+  "name": "drawings-backend",
+  "version": "1.0.0",
+  "description": "backend to post and fetch drawings",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EckeEcke/drawings-backend.git"
+  },
+  "author": "Christian Eckardt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EckeEcke/drawings-backend/issues"
+  },
+  "homepage": "https://github.com/EckeEcke/drawings-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
+  }
+}
