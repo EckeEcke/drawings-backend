@@ -62,6 +62,6 @@ const postDrawing = async (req, res) => {
 }
 
 module.exports = {
-  getHighscores: allowCors(getDrawings),
-  postHighscore: allowCors(postDrawing)
+  getDrawings: allowCors(getDrawings),
+  postDrawing: allowCors(postDrawing)
 }
