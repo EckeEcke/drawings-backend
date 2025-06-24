@@ -1,2 +1,2 @@
 # drawings-backend
-backend to post and fetch drawings
+Vercel serverless functions to post and fetch user created drawings
