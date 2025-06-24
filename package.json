@@ -4,7 +4,6 @@
   "description": "backend to post and fetch drawings",
   "main": "api/index.js",
   "scripts": {
-    "dev": "vercel dev",
     "deploy": "vercel deploy"
   },
   "engines": {
